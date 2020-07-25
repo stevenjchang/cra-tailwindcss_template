@@ -5,7 +5,7 @@ import "../styles/tailwind.css";
 const HomePage = () => {
   return (
     <>
-      <div>Home Page</div>
+      <div className="text-4xl text-blue-100">Home Page</div>
     </>
   );
 };
