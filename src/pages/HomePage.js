@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/tailwind.css";
+import "../styles/tailwind_output.css";
 
 const HomePage = () => {
   return (
