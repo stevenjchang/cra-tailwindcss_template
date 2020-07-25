@@ -11,12 +11,14 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "npm run build:style && react-scripts start",
     "build": "react-scripts build",
     "build:style": "postcss src/styles/tailwind_custom_entry.css -o src/styles/tailwind_output.css",
+    "watch": "watch 'npm run build:styles' src/styles/tailwind_custom_entry.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
