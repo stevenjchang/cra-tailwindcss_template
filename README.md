@@ -13,3 +13,5 @@ Runs the app in development mode while watching the tailwind_custom_entry.css fi
 - `purgecss` - by default, tailwindcss imports all classes. purgecss removes all unused classes, significantly reducing compiled file size.
 - `cssnano` - css minifier + remove css comments
 - `autoprefixer` - Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.
+
+### Check out REFERENCES.md for helpful articles and resources used in this repo
