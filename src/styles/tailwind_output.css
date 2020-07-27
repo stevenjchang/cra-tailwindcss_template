@@ -220,7 +220,8 @@ button:-moz-focusring,
  */
 
 
-h1 {
+h1,
+p {
   margin: 0;
 }
 
@@ -353,5 +354,27 @@ input {
  *
  * https://github.com/mozdevs/cssremedy/issues/14
  */
+
+.bg-red-700 {
+  --bg-opacity: 1;
+  background-color: #c53030;
+  background-color: rgba(197, 48, 48, var(--bg-opacity));
+}
+
+.bg-green-700 {
+  --bg-opacity: 1;
+  background-color: #2f855a;
+  background-color: rgba(47, 133, 90, var(--bg-opacity));
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-white {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
 
 /* put custom css here */
