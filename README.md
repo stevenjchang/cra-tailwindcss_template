@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### 'npm run develop'
+### `npm run develop`
 
 Runs the app in development mode while watching the tailwind_custom_entry.css file.
 
