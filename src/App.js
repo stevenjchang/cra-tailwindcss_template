@@ -1,23 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import fb from "./firebase.js";
 import { AuthProvider } from "./Auth.js";
-import "./styles/tailwind_output.css";
+import Home from "./Home.js";
+import Login from "./Login.js";
+import SignUp from "./SignUp.js";
 
-const Home = () => {
-  return (
-    <>
-      <h1>Home</h1>
-      {/* <button onClick={() => fb.auth().signOut()}>Sign out</button> */}
-    </>
-  );
-};
-const Login = () => {
-  return <></>;
-};
-const SignUp = () => {
-  return <></>;
-};
+import "./styles/tailwind_output.css";
 
 function App() {
   return (
