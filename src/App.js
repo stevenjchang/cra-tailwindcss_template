@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { AuthProvider } from "./Auth.js";
-import Home from "./Home.js";
-import Login from "./Login.js";
-import SignUp from "./SignUp.js";
+import Home from "components/Home.js";
+import Login from "./components/Login.js";
+import SignUp from "./components/SignUp.js";
 
 import "./styles/tailwind_output.css";
 
