@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.8.4",
     "cssnano": "^4.1.10",
+    "firebase": "^7.17.1",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
