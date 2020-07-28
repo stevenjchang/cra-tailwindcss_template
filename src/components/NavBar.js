@@ -29,15 +29,16 @@ const NavBar = () => {
             Private
           </button>
         </div>
-        <div className="mr-8 bg-gray-200 text-gray-800 text-base rounded-lg px-4 pt-1">
-          <span>
-            You are currently{" "}
-            {!!currentUser ? (
-              <span className="text-green-700">Logged In</span>
-            ) : (
-              <span className="text-red-700">Logged Out</span>
-            )}
-          </span>
+        <div>
+          {!!currentUser ? (
+            <p className="bg-green-700 px-8 px-4 text-lg rounded-lg">
+              Logged In
+            </p>
+          ) : (
+            <p className="bg-red-700 px-8 px-4 text-lg rounded-lg">
+              Logged Out
+            </p>
+          )}
         </div>
       </div>
     </section>
