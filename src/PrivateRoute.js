@@ -4,6 +4,14 @@ import { AuthContext } from "Auth.js";
 
 const PrivateRoute = ({ component: RouteComponent, ...rest }) => {
   const { currentUser } = useContext(AuthContext);
+  // return (
+  //   <Route
+  //     {...rest}
+  //     render={(routeProps) =>
+  //       !!currentUser ? <div>true</div> : <div className="j">false</div>
+  //     }
+  //   />
+  // );
   return (
     <Route
       {...rest}
