@@ -8,6 +8,8 @@ import Login from "components/Login.js";
 import SignUp from "components/SignUp.js";
 import Private from "components/Private.js";
 
+import { add } from "utils/firestore.js";
+
 import "./styles/tailwind_output.css";
 
 function App() {
@@ -20,6 +22,15 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
           <PrivateRoute exact path="/private" component={Private} />
+          <br />
+          <div className="text-center">
+            <button
+              className="bg-red-600 text-xl rounded-lg px-6 py-3"
+              onClick={add}
+            >
+              Add test doc to firestore
+            </button>
+          </div>
         </div>
       </Router>
     </AuthProvider>
